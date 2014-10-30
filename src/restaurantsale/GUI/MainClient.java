@@ -40,7 +40,6 @@ public class MainClient extends javax.swing.JFrame {
                 updateQueueTable(tcpClient.sendMessage("QUE"));
                 setMenuTable(tcpClient.sendMessage("MNU"));
                 checkOrdered(tcpClient.sendMessage("CHK;" + TABLE_NO));
-                System.out.println("Test");
             }
         });
     }
