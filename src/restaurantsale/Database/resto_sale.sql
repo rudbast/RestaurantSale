@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Nov 02, 2014 at 10:51 AM
+-- Generation Time: Nov 02, 2014 at 11:21 AM
 -- Server version: 5.6.20
 -- PHP Version: 5.5.15
 
@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS `Menu` (
   `NAME` varchar(20) NOT NULL,
   `TYPE` varchar(10) NOT NULL,
   `PRICE` int(11) NOT NULL
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=21 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=32 ;
 
 --
 -- Dumping data for table `Menu`
@@ -45,21 +45,21 @@ INSERT INTO `Menu` (`ID`, `NAME`, `TYPE`, `PRICE`) VALUES
 (3, 'Ice Lemon Tea', 'BEVERAGE', 8000),
 (4, 'Cold Sweet Tea', 'BEVERAGE', 4000),
 (5, 'Chicken Tempura', 'FOOD', 21000),
-(6, 'Curry Rice', 'FOOD', 19000),
-(7, 'Chicken Tempura', 'FOOD', 21000),
 (8, 'Curry Rice', 'FOOD', 19000),
-(9, 'Omelette Rice', 'FOOD', 17000),
 (10, 'Original Ramen', 'FOOD', 19000),
 (11, 'Omelette Rice', 'FOOD', 17000),
-(12, 'Original Ramen', 'FOOD', 19000),
-(13, 'Milk Tea', 'BEVERAGE', 10000),
-(14, 'Carbonated Can', 'BEVERAGE', 8000),
 (15, 'Milk Tea', 'BEVERAGE', 10000),
 (16, 'Carbonated Can', 'BEVERAGE', 8000),
 (17, 'Coffee', 'BEVERAGE', 6000),
-(18, 'Fruit Juice', 'BEVERAGE', 9000),
-(19, 'Coffee', 'BEVERAGE', 6000),
-(20, 'Fruit Juice', 'BEVERAGE', 9000);
+(20, 'Fruit Juice', 'BEVERAGE', 9000),
+(22, 'Complete Bento Set', 'FOOD', 25000),
+(23, 'Spaghetti', 'FOOD', 15000),
+(25, 'Ice Cream Sundaes', 'FOOD', 10000),
+(27, 'Padang Rice', 'FOOD', 20000),
+(28, 'Mineral Water', 'BEVERAGE', 9000),
+(29, 'Chocolate Milk', 'BEVERAGE', 12000),
+(30, 'Cappucino', 'BEVERAGE', 10000),
+(31, 'Milo', 'BEVERAGE', 10000);
 
 -- --------------------------------------------------------
 
@@ -150,7 +150,7 @@ ALTER TABLE `Sales`
 -- AUTO_INCREMENT for table `Menu`
 --
 ALTER TABLE `Menu`
-MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=21;
+MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=32;
 --
 -- AUTO_INCREMENT for table `Queue`
 --
