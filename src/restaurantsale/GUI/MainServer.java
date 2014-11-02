@@ -138,6 +138,7 @@ public class MainServer extends javax.swing.JFrame {
         btnDone = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("SERVER");
         setExtendedState(6);
 
         labTable.setFont(new java.awt.Font("DejaVu Sans", 1, 36)); // NOI18N
@@ -182,7 +183,7 @@ public class MainServer extends javax.swing.JFrame {
             tabQueue.getColumnModel().getColumn(3).setResizable(false);
         }
 
-        paneDone.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "FINISHED ORDER", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, null, java.awt.Color.green));
+        paneDone.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "FINISHED ORDER", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("DejaVu Sans", 1, 12), java.awt.Color.green)); // NOI18N
 
         tabDone.setFont(new java.awt.Font("DejaVu Sans", 0, 18)); // NOI18N
         tabDone.setModel(new javax.swing.table.DefaultTableModel(

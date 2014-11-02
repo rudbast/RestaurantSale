@@ -58,6 +58,7 @@ public class SearchForm extends javax.swing.JFrame {
         tfPriceV2 = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setTitle("SEARCH");
         setResizable(false);
 
         labKeyword.setText("Name");

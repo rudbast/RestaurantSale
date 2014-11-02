@@ -231,13 +231,14 @@ public class MainClient extends javax.swing.JFrame {
         btnPay = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("CLIENT");
         setExtendedState(6);
 
         labTable.setFont(new java.awt.Font("DejaVu Sans", 1, 36)); // NOI18N
         labTable.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         labTable.setText("TABLE : ");
 
-        paneQueue.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "ORDERS QUEUE", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, null, new java.awt.Color(0, 0, 255)));
+        paneQueue.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "ORDERS QUEUE", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("DejaVu Sans", 1, 12), new java.awt.Color(0, 0, 255))); // NOI18N
 
         tabQueue.setFont(new java.awt.Font("DejaVu Sans", 0, 24)); // NOI18N
         tabQueue.setModel(new javax.swing.table.DefaultTableModel(
@@ -289,7 +290,7 @@ public class MainClient extends javax.swing.JFrame {
             .addComponent(spQueue, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
         );
 
-        paneOrder.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "YOUR ORDER", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, null, new java.awt.Color(0, 0, 255)));
+        paneOrder.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "YOUR ORDER", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("DejaVu Sans", 1, 12), new java.awt.Color(0, 0, 255))); // NOI18N
 
         tabOrder.setFont(new java.awt.Font("DejaVu Sans", 0, 22)); // NOI18N
         tabOrder.setModel(new javax.swing.table.DefaultTableModel(
@@ -364,7 +365,7 @@ public class MainClient extends javax.swing.JFrame {
                     .addComponent(labPrice)))
         );
 
-        paneMenu.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "PLACE ORDER HERE", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, null, new java.awt.Color(0, 0, 255)));
+        paneMenu.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "PLACE ORDER HERE", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("DejaVu Sans", 1, 12), new java.awt.Color(0, 0, 255))); // NOI18N
 
         tabFood.setFont(new java.awt.Font("DejaVu Sans", 0, 18)); // NOI18N
         tabFood.setModel(new javax.swing.table.DefaultTableModel(
