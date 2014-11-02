@@ -103,7 +103,7 @@ public class MainClient extends javax.swing.JFrame {
                 "Please wait around 15 minutes before the orders are ready", "CONFIRM SUCCESS");
 
         clearMenuQty();
-        // checkOrdered(tcpClient.sendMessage("CHK;" + TABLE_NO));
+        checkOrdered(tcpClient.sendMessage("CHK;" + TABLE_NO));
         this.setCursor(java.awt.Cursor.getPredefinedCursor(java.awt.Cursor.DEFAULT_CURSOR));
     }
 
